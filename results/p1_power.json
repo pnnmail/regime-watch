@@ -1,0 +1,279 @@
+{
+ "fpr": {
+  "MS_persist1": 0.0,
+  "MS_persist2": 0.0,
+  "MS_persist3": 0.0,
+  "CUSUM": 0.03076,
+  "Pettitt": 0.009680000000000001
+ },
+ "power": [
+  {
+   "ratio": 1.5,
+   "method": "MS_persist1",
+   "n_episodes": 202,
+   "hit_le_3d": 0.09405940594059406,
+   "hit_le_5d": 0.12376237623762376,
+   "median_delay_detected": 5.0,
+   "miss_rate": 0.7574257425742574,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 1.5,
+   "method": "MS_persist2",
+   "n_episodes": 202,
+   "hit_le_3d": 0.054455445544554455,
+   "hit_le_5d": 0.09405940594059406,
+   "median_delay_detected": 7.0,
+   "miss_rate": 0.7722772277227723,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 1.5,
+   "method": "MS_persist3",
+   "n_episodes": 202,
+   "hit_le_3d": 0.034653465346534656,
+   "hit_le_5d": 0.0594059405940594,
+   "median_delay_detected": 8.0,
+   "miss_rate": 0.7970297029702971,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 1.5,
+   "method": "CUSUM",
+   "n_episodes": 202,
+   "hit_le_3d": 0.3069306930693069,
+   "hit_le_5d": 0.4801980198019802,
+   "median_delay_detected": 5.0,
+   "miss_rate": 0.18316831683168316,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 1.5,
+   "method": "Pettitt",
+   "n_episodes": 202,
+   "hit_le_3d": 0.039603960396039604,
+   "hit_le_5d": 0.054455445544554455,
+   "median_delay_detected": 9.0,
+   "miss_rate": 0.806930693069307,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 2.0,
+   "method": "MS_persist1",
+   "n_episodes": 202,
+   "hit_le_3d": 0.400990099009901,
+   "hit_le_5d": 0.5594059405940595,
+   "median_delay_detected": 4.0,
+   "miss_rate": 0.16831683168316833,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 2.0,
+   "method": "MS_persist2",
+   "n_episodes": 202,
+   "hit_le_3d": 0.2524752475247525,
+   "hit_le_5d": 0.42574257425742573,
+   "median_delay_detected": 5.0,
+   "miss_rate": 0.21782178217821782,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 2.0,
+   "method": "MS_persist3",
+   "n_episodes": 202,
+   "hit_le_3d": 0.18811881188118812,
+   "hit_le_5d": 0.3069306930693069,
+   "median_delay_detected": 6.0,
+   "miss_rate": 0.2871287128712871,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 2.0,
+   "method": "CUSUM",
+   "n_episodes": 202,
+   "hit_le_3d": 0.4900990099009901,
+   "hit_le_5d": 0.698019801980198,
+   "median_delay_detected": 3.0,
+   "miss_rate": 0.10396039603960396,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 2.0,
+   "method": "Pettitt",
+   "n_episodes": 202,
+   "hit_le_3d": 0.034653465346534656,
+   "hit_le_5d": 0.054455445544554455,
+   "median_delay_detected": 8.5,
+   "miss_rate": 0.6435643564356436,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 3.0,
+   "method": "MS_persist1",
+   "n_episodes": 202,
+   "hit_le_3d": 0.7574257425742574,
+   "hit_le_5d": 0.8762376237623762,
+   "median_delay_detected": 1.0,
+   "miss_rate": 0.034653465346534656,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 3.0,
+   "method": "MS_persist2",
+   "n_episodes": 202,
+   "hit_le_3d": 0.6287128712871287,
+   "hit_le_5d": 0.8316831683168316,
+   "median_delay_detected": 2.0,
+   "miss_rate": 0.034653465346534656,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 3.0,
+   "method": "MS_persist3",
+   "n_episodes": 202,
+   "hit_le_3d": 0.4158415841584158,
+   "hit_le_5d": 0.6732673267326733,
+   "median_delay_detected": 4.0,
+   "miss_rate": 0.06930693069306931,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 3.0,
+   "method": "CUSUM",
+   "n_episodes": 202,
+   "hit_le_3d": 0.693069306930693,
+   "hit_le_5d": 0.8267326732673267,
+   "median_delay_detected": 2.0,
+   "miss_rate": 0.07425742574257425,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 3.0,
+   "method": "Pettitt",
+   "n_episodes": 202,
+   "hit_le_3d": 0.034653465346534656,
+   "hit_le_5d": 0.054455445544554455,
+   "median_delay_detected": 8.0,
+   "miss_rate": 0.599009900990099,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 5.0,
+   "method": "MS_persist1",
+   "n_episodes": 202,
+   "hit_le_3d": 0.9554455445544554,
+   "hit_le_5d": 0.995049504950495,
+   "median_delay_detected": 0.0,
+   "miss_rate": 0.0049504950495049506,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 5.0,
+   "method": "MS_persist2",
+   "n_episodes": 202,
+   "hit_le_3d": 0.8564356435643564,
+   "hit_le_5d": 0.9554455445544554,
+   "median_delay_detected": 1.0,
+   "miss_rate": 0.01485148514851485,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 5.0,
+   "method": "MS_persist3",
+   "n_episodes": 202,
+   "hit_le_3d": 0.6683168316831684,
+   "hit_le_5d": 0.8514851485148515,
+   "median_delay_detected": 3.0,
+   "miss_rate": 0.019801980198019802,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 5.0,
+   "method": "CUSUM",
+   "n_episodes": 202,
+   "hit_le_3d": 0.801980198019802,
+   "hit_le_5d": 0.8564356435643564,
+   "median_delay_detected": 1.0,
+   "miss_rate": 0.07425742574257425,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 5.0,
+   "method": "Pettitt",
+   "n_episodes": 202,
+   "hit_le_3d": 0.034653465346534656,
+   "hit_le_5d": 0.06930693069306931,
+   "median_delay_detected": 7.0,
+   "miss_rate": 0.5693069306930693,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 8.0,
+   "method": "MS_persist1",
+   "n_episodes": 202,
+   "hit_le_3d": 0.9851485148514851,
+   "hit_le_5d": 0.995049504950495,
+   "median_delay_detected": 0.0,
+   "miss_rate": 0.0049504950495049506,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 8.0,
+   "method": "MS_persist2",
+   "n_episodes": 202,
+   "hit_le_3d": 0.900990099009901,
+   "hit_le_5d": 0.9603960396039604,
+   "median_delay_detected": 1.0,
+   "miss_rate": 0.009900990099009901,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 8.0,
+   "method": "MS_persist3",
+   "n_episodes": 202,
+   "hit_le_3d": 0.7673267326732673,
+   "hit_le_5d": 0.9306930693069307,
+   "median_delay_detected": 2.0,
+   "miss_rate": 0.01485148514851485,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 8.0,
+   "method": "CUSUM",
+   "n_episodes": 202,
+   "hit_le_3d": 0.8168316831683168,
+   "hit_le_5d": 0.8762376237623762,
+   "median_delay_detected": 0.0,
+   "miss_rate": 0.0594059405940594,
+   "converge_fail": 0
+  },
+  {
+   "ratio": 8.0,
+   "method": "Pettitt",
+   "n_episodes": 202,
+   "hit_le_3d": 0.034653465346534656,
+   "hit_le_5d": 0.06930693069306931,
+   "median_delay_detected": 7.0,
+   "miss_rate": 0.5693069306930693,
+   "converge_fail": 0
+  }
+ ],
+ "params": {
+  "CALM_MU_ANN": 0.08,
+  "CALM_SIG_ANN": 0.12,
+  "STRESS_MU_ANN": -0.15,
+  "MEAN_DUR_CALM": 150,
+  "MEAN_DUR_STRESS": 20,
+  "RATIOS": [
+   1.5,
+   2.0,
+   3.0,
+   5.0,
+   8.0
+  ],
+  "N_REPS": 25,
+  "N_DAYS": 1500,
+  "LOOKAHEAD": 20,
+  "MS_THRESH": 0.7
+ }
+}

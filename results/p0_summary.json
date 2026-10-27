@@ -1,0 +1,59 @@
+{
+ "universe": {
+  "core_index": [
+   "SPY",
+   "^GSPC",
+   "QQQ",
+   "^NDX",
+   "IWM",
+   "EEM",
+   "EWY",
+   "FLKR",
+   "FXI",
+   "MCHI",
+   "EWJ",
+   "EWG"
+  ],
+  "sector_etf": [
+   "XLK",
+   "XLF",
+   "XLE",
+   "XLV",
+   "XLI",
+   "XLP",
+   "XLU",
+   "XLB",
+   "XLRE",
+   "XLC",
+   "SMH"
+  ],
+  "cross_market": [
+   "^VIX",
+   "^VVIX",
+   "^VIX3M",
+   "HYG",
+   "LQD",
+   "TLT",
+   "IEF",
+   "UUP",
+   "GLD",
+   "USO",
+   "BTC-USD"
+  ],
+  "leveraged_etf": [
+   "TQQQ",
+   "SQQQ",
+   "SPXL",
+   "SPXS",
+   "SOXL",
+   "SOXS"
+  ]
+ },
+ "start": "2015-01-01",
+ "end": "2026-09-13",
+ "min_days": 756,
+ "min_dollar_vol": 10000000.0,
+ "n_passed": 40,
+ "n_total": 40,
+ "fred_available": true
+}

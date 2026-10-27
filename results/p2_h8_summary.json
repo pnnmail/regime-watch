@@ -1,0 +1,80 @@
+{
+ "auc_composite": 0.8976588628762542,
+ "auc_individual": {
+  "cusum": 0.49138795986622075,
+  "ratio_dev": 0.9149665551839464,
+  "avgcorr": 0.47558528428093644,
+  "breadth": 0.7017976588628763,
+  "asia_avg": 0.6361204013377927
+ },
+ "best_individual": "ratio_dev",
+ "n_train": 849,
+ "n_test": 618,
+ "bootstrap_p": 0.8305,
+ "trial": [
+  {
+   "n": 8,
+   "name": "H8 composite>best_individual",
+   "b": -0.017307692307692246,
+   "t": -0.9561429857974221,
+   "p": 0.8305,
+   "mde": NaN
+  }
+ ],
+ "coef": {
+  "cusum": 0.9965280565227311,
+  "ratio_dev": 0.9110471374900915,
+  "avgcorr": -0.5345083721240739,
+  "breadth": 0.053584679586949104,
+  "asia_avg": -0.12065740282742186
+ },
+ "signal_correlation": {
+  "cusum": {
+   "cusum": 1.0,
+   "ratio_dev": 0.3367,
+   "avgcorr": 0.5611,
+   "breadth": -0.2237,
+   "asia_avg": 0.0129
+  },
+  "ratio_dev": {
+   "cusum": 0.3367,
+   "ratio_dev": 1.0,
+   "avgcorr": 0.4599,
+   "breadth": -0.6402,
+   "asia_avg": -0.182
+  },
+  "avgcorr": {
+   "cusum": 0.5611,
+   "ratio_dev": 0.4599,
+   "avgcorr": 1.0,
+   "breadth": -0.4283,
+   "asia_avg": 0.0001
+  },
+  "breadth": {
+   "cusum": -0.2237,
+   "ratio_dev": -0.6402,
+   "avgcorr": -0.4283,
+   "breadth": 1.0,
+   "asia_avg": 0.1401
+  },
+  "asia_avg": {
+   "cusum": 0.0129,
+   "ratio_dev": -0.182,
+   "avgcorr": 0.0001,
+   "breadth": 0.1401,
+   "asia_avg": 1.0
+  }
+ },
+ "interpretation": "signals not independent (|r|=0.22-0.64 among 4 of 5) -- composite fails to beat best single signal because it has little diversification to exploit, not because combining signals is inherently useless",
+ "params": {
+  "TRAIN": [
+   "2020-01-01",
+   "2023-12-31"
+  ],
+  "TEST": [
+   "2024-01-01",
+   "2026-12-31"
+  ],
+  "LABEL_H": 5
+ }
+}

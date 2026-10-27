@@ -1,0 +1,14 @@
+{
+ "status": "BLOCKED",
+ "reason": "no free creation/redemption data source",
+ "sources_checked": [
+  "Yahoo Finance",
+  "FRED",
+  "CBOE"
+ ],
+ "sources_needed": [
+  "Bloomberg",
+  "Refinitiv",
+  "issuer N-CEN/N-PORT (~60d lag)"
+ ]
+}

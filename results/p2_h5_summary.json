@@ -1,0 +1,89 @@
+{
+  "episodes": [
+    {
+      "onset_date": "2020-02-27",
+      "onset_pos": 1276,
+      "lead_days": 0,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2020-05-12",
+      "onset_pos": 1328,
+      "lead_days": 0,
+      "direction": "fall"
+    },
+    {
+      "onset_date": "2020-06-11",
+      "onset_pos": 1349,
+      "lead_days": 1,
+      "direction": "fall"
+    },
+    {
+      "onset_date": "2020-10-26",
+      "onset_pos": 1444,
+      "lead_days": 14,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2022-02-28",
+      "onset_pos": 1781,
+      "lead_days": null,
+      "direction": null
+    },
+    {
+      "onset_date": "2022-04-26",
+      "onset_pos": 1821,
+      "lead_days": null,
+      "direction": null
+    },
+    {
+      "onset_date": "2022-05-05",
+      "onset_pos": 1828,
+      "lead_days": 0,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2022-06-13",
+      "onset_pos": 1854,
+      "lead_days": 0,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2022-09-23",
+      "onset_pos": 1925,
+      "lead_days": 0,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2022-10-06",
+      "onset_pos": 1934,
+      "lead_days": 0,
+      "direction": "rise"
+    },
+    {
+      "onset_date": "2025-04-03",
+      "onset_pos": 2558,
+      "lead_days": null,
+      "direction": null
+    }
+  ],
+  "perm_p": 0.03479304139172166,
+  "trial": [
+    {
+      "n": 5,
+      "name": "H5 corr_break lead",
+      "b": 0.7272727272727273,
+      "t": 1.8145955765616177,
+      "p": 0.03479304139172166,
+      "mde": NaN
+    }
+  ],
+  "n_rise": 6,
+  "n_fall": 2,
+  "params": {
+    "CORR_WIN": 20,
+    "PETTITT_WINDOW": 60,
+    "PETTITT_RECENT": 10,
+    "LOOKBACK": 20
+  }
+}
